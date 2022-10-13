@@ -1,0 +1,77 @@
+{
+  "manifestVersion": "3.1",
+  "impls": {
+    "22c784b2f8887a1c3a8ce9e27293e5ba8cff4f0d5427c6ec622a4716a928b8d4": {
+      "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      "txHash": "0x28fbb8d3d656c39aee6218347f1fd78cc2be0f1fd022114e8aedf0f0105e6216",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:25"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:30"
+          },
+          {
+            "contract": "LogicV1",
+            "label": "value",
+            "type": "t_uint256",
+            "src": "contracts/LogicV1.sol:9"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    },
+    "8cc6ceb91cf3090bfde7d7ff30a3c31823796ad3356442f53ff1c133876efb76": {
+      "address": "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9",
+      "txHash": "0x736f7969385ca1d5b1a9b9355eed103fd064a80747918afaa1724c5e8132b7f5",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:25"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:30"
+          },
+          {
+            "contract": "LogicV2",
+            "label": "value",
+            "type": "t_uint256",
+            "src": "contracts/LogicV2.sol:9"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    }
+  },
+  "admin": {
+    "address": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+    "txHash": "0x5cc65d58f08539443b183acd0e78e3deb85d2f78f5e6371b37df4f1c882e0e76"
+  }
+}

@@ -2,6 +2,8 @@
 
 Upgradable contracts sample code
 
+https://blog.shinonome.io/transparent-proxy-pattern-contracts/
+
 ## Link
 
 https://docs.openzeppelin.com/upgrades-plugins/1.x/proxies

@@ -36,12 +36,12 @@ const config: HardhatUserConfig = {
       url: "http://127.0.0.1:8545"
     },
     hardhat: {
-      chainId: 1,
-      forking: {
-        url: `https://eth-mainnet.alchemyapi.io/v2/${ALCHEMY_API_KEY}`,
-        blockNumber: parseInt(BLOCK_NUMBER),
-        enabled: true
-      }
+      chainId: 1337,
+      // forking: {
+      //   url: `https://eth-mainnet.alchemyapi.io/v2/${ALCHEMY_API_KEY}`,
+      //   blockNumber: parseInt(BLOCK_NUMBER),
+      //   enabled: true
+      // }
     },
     // rinkeby: {
     // url: "https://rinkeby.infura.io/v3/" + PROJECT_ID,
